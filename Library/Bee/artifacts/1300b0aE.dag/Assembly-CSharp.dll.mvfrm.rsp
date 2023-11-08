@@ -1,3 +1,5 @@
+Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_222C82CECB47A66F.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_3835BB91EC2C0D62.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_1315E0A407C70415.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ForUI.ref.dll_8456852F39E72DEA.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_7B1D397D2193763B.mvfrm
@@ -8,6 +10,11 @@ Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_66DE4C1C9A03AD08.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_8B44F821019897E5.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_A558B9E65539D7D0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_DA88E6A3E9EB6155.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.Editor.ref.dll_439846C63D86296B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.MacBLAS.ref.dll_08757385379131C3.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.ONNX.ref.dll_7AAD86969B401F27.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.ref.dll_EB4B6B3206828AA6.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sentis.iOSBLAS.ref.dll_5201A165893EB1C1.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll_22F664961FC0158D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll_39D3266F6029657A.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TestTools.CodeCoverage.Editor.ref.dll_C6D619E6129B87D3.mvfrm
