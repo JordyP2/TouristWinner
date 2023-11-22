@@ -398,7 +398,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+"Assets/Scripts/BezienswaardigheidDataLoader.cs"
 "Assets/Scripts/ChangeScene.cs"
+"Assets/Scripts/DummyBezienswaardigheden.cs"
 "Assets/Scripts/Test.cs"
 -langversion:9.0
 
