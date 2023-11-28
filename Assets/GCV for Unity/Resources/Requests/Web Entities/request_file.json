@@ -1,0 +1,15 @@
+{
+  "requests": [
+    {
+      "image": {
+        "content": "BASE64"
+      },
+      "features": [
+        {
+          "maxResults": 10,
+          "type": "WEB_DETECTION"
+        },
+      ]
+    }
+  ]
+}

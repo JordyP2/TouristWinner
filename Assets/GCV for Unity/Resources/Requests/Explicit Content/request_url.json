@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "imageUri": "URL"
+        }
+      },
+      "features": [
+        {
+          "type": "SAFE_SEARCH_DETECTION"
+        }
+      ]
+    }
+  ]
+}

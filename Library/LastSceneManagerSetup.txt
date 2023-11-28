@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scanner.unity
+- path: Assets/GCV for Unity/Scenes/Main.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

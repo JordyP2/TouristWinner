@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "gcsImageUri": "URL"
+        }
+      },
+      "features": [
+        {
+          "type": "LOGO_DETECTION"
+        },
+      ]
+    }
+  ]
+}

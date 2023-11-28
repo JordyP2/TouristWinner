@@ -1,0 +1,17 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "gcsImageUri": "URL"
+        }
+      },
+      "features": [
+        {
+          "maxResults": 10,
+          "type": "LANDMARK_DETECTION"
+        },
+      ]
+    }
+  ]
+}

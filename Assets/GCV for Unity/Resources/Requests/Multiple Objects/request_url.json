@@ -1,0 +1,17 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "imageUri": "URL"
+        }
+      },
+      "features": [
+        {
+          "maxResults": 10,
+          "type": "OBJECT_LOCALIZATION"
+        },
+      ]
+    }
+  ]
+}

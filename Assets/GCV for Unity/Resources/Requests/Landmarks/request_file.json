@@ -1,0 +1,15 @@
+﻿{
+  "requests": [
+    {
+      "image": {
+        "content": "BASE64"
+      },
+      "features": [
+        {
+          "maxResults": 3,
+          "type": "LANDMARK_DETECTION"
+        }
+      ]
+    }
+  ]
+}

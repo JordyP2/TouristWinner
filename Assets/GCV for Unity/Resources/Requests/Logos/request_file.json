@@ -1,0 +1,14 @@
+{
+  "requests": [
+    {
+      "image": {
+        "content": "BASE64"
+      },
+      "features": [
+        {
+          "type": "LOGO_DETECTION"
+        },
+      ]
+    }
+  ]
+}

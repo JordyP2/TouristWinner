@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "imageUri": "URL"
+        }
+       },
+       "features": [
+         {
+           "type": "TYPE"
+         }
+       ]
+    }
+  ]
+}

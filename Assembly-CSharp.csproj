@@ -58,18 +58,62 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GCV for Unity\Scripts\UI\Extensions\BezierPath.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\WebEntitiesDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\LabelsDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\UI\ApiKey.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Scripts\JsonExtensions.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Examples\Scripts\Example01.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\MultipleObjectsDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Scripts\JsonFormatter.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Utils\Storage.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\UI\Extensions\SetPropertyUtility.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\FacesDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Examples\Scripts\Example02.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\LogosDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\WebEntitiesDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Utils\Utilities.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\UI\Main.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\TextDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\FacesDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\ImagePropertiesDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Scripts\JsonWriter.cs" />
     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\ExplicitContentDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\ImagePropertiesDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\RequestHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\LandmarksDetectionHandler.cs" />
     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\CropHintsDetectionHandler.cs" />
     <Compile Include="Assets\Scripts\YoloManager.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\MultipleObjectsDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Scripts\JsonReader.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Scripts\JsonTextWriter.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\UI\Extensions\CableCurve.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\LabelsDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Utils\ImageProcessing.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\Borders.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\ExplicitContentDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\LandmarksDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Scripts\JsonTextReader.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Requests\LogosDetectionHandler.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\TextDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\UI\Extensions\UILineRenderer.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\UI\Extensions\UIPrimitiveBase.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Models\CropHintsDetection.cs" />
+    <Compile Include="Assets\GCV for Unity\Scripts\Utils\Constants.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\GCV for Unity\Documentation\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Documentation\JsonFormatter Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\GCV for Unity\Plugins\BayatGames\JsonFormatter\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -924,6 +968,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SimpleFileBrowser.Runtime.csproj">
+      <Project>{0C5324A9-180C-A044-FA5D-0156E79E269B}</Project>
+      <Name>SimpleFileBrowser.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleFileBrowser.Editor.csproj">
+      <Project>{AA0E322C-CF7E-19C9-04D4-5FEAF63C5C97}</Project>
+      <Name>SimpleFileBrowser.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
