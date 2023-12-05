@@ -138,8 +138,38 @@ public class Main : MonoBehaviour
 
                     switch (detectionTypes.captionText.text)
                     {
+                        case TextDetection.TAG1:
+                            StartCoroutine(TextDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl, TextDetection.TAG1));
+                            break;
+                        case TextDetection.TAG2:
+                            StartCoroutine(TextDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl, TextDetection.TAG2));
+                            break;
+                        case FacesDetection.TAG:
+                            StartCoroutine(FacesDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
+                        case LogosDetection.TAG:
+                            StartCoroutine(LogosDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
                         case LandmarksDetection.TAG:
                             StartCoroutine(LandmarksDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
+                        case CropHintsDetection.TAG:
+                            StartCoroutine(CropHintsDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
+                        case LabelsDetection.TAG:
+                            StartCoroutine(LabelsDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
+                        case ImagePropertiesDetection.TAG:
+                            StartCoroutine(ImagePropertiesDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
+                        case WebEntitiesDetection.TAG:
+                            StartCoroutine(WebEntitiesDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
+                        case ExplicitContentDetection.TAG:
+                            StartCoroutine(ExplicitContentDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
+                            break;
+                        case MultipleObjectsDetection.TAG:
+                            StartCoroutine(MultipleObjectsDetectionHandler.Run(ShowResult, NetworkError, final_path, isUrl));
                             break;
                     }
                 }
