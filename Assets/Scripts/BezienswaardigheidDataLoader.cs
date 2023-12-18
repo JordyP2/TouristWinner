@@ -1,105 +1,87 @@
 using System.Collections;
+using System.IO;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
+using SQLite4Unity3d;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Data.Common;
+using System.Data;
+
+public class Bezienswaardigheid
+{
+    [PrimaryKey, AutoIncrement]
+    public int id { get; set; }
+    public string name { get; set; }
+    public string artist { get; set; }
+    public string creation_date { get; set; }
+    public string description { get; set; }
+    public string info_link { get; set; } // This should be a string to store a URL.
+    public double? latitude { get; set; } // Nullable double to handle NULL values for latitude.
+    public double? longtitude { get; set; } // Nullable double to handle NULL values for longitude.
+}
 
 public class BezienswaardigheidDataLoader : MonoBehaviour
 {
-    public GameObject bezienswaardighedenPrefab; // Set this to your prefab in the inspector.
+    //private SQLiteConnection _connection;
+
+public GameObject bezienswaardighedenPrefab; // Set this to your prefab in the inspector.
     public Transform contentPanel; // Set this to the part of the UI where you want to add the destinations.
 
-    private List<DummyBezienswaardigheden> bezienswaardighedenList = new List<DummyBezienswaardigheden>();
+    private List<Bezienswaardigheid> bezienswaardighedenList = new List<Bezienswaardigheid>();
+    private DataService dataService;
+
 
     void Start()
     {
-        // Here you would load from the database, but for now we'll just use dummy data.
-        LoadDummyData();
+
+        dataService = new DataService("BezienswaardighedenDatabase.db");
+        LoadDataFromDatabase();
         PopulatePanel();
     }
 
-    void LoadDummyData()
+    void LoadDataFromDatabase()
     {
-        // Add some dummy destinations
-        bezienswaardighedenList.Add(new DummyBezienswaardigheden { name = "Eiffel Tower", description = "Iconic tower in Paris", locationX = 777, locationY = 198 });
-        bezienswaardighedenList.Add(new DummyBezienswaardigheden { name = "Great Wall", description = "Historic wall in China", locationX = 100, locationY = 125 });
-        bezienswaardighedenList.Add(new DummyBezienswaardigheden { name = "Tower of Pisa", description = "Iconic tower in Italy", locationX = 230, locationY = 200 });
-        bezienswaardighedenList.Add(new DummyBezienswaardigheden { name = "Great Pyramid of Giza", description = "Large pyramid in Egypt", locationX = 2300, locationY = 2000 });
-        bezienswaardighedenList.Add(new DummyBezienswaardigheden { name = "Lighthouse of Alexandria", description = "One of the 6 wonders of the world", locationX = 6600, locationY = 2000 });
-        bezienswaardighedenList.Add(new DummyBezienswaardigheden { name = "Library of Alexandria", description = "Burned down library", locationX = 900, locationY = 554 });
-        // Add more dummy data as needed.
+        var query = "SELECT * FROM bezienswaardigheden";
+        bezienswaardighedenList = dataService.Connection.Query<Bezienswaardigheid>(query);
     }
 
     void PopulatePanel()
     {
-        if (bezienswaardighedenPrefab == null)
+        if (bezienswaardighedenPrefab == null || contentPanel == null)
         {
-            Debug.LogError("Prefab is not assigned!");
+            Debug.LogError("Prefab or Content Panel is not assigned!");
             return;
         }
 
-        if (contentPanel == null)
+        foreach (var item in bezienswaardighedenList)
         {
-            Debug.LogError("Content panel is not assigned!");
-            return;
-        }
+            GameObject newItem = Instantiate(bezienswaardighedenPrefab, contentPanel);
 
-        foreach (var DummyBezienswaardigheden in bezienswaardighedenList)
-        {
-            GameObject newDummyBezienswaardigheden = Instantiate(bezienswaardighedenPrefab, contentPanel);
-
-            /*
-            var nameText = newDummyBezienswaardigheden.transform.Find("Name")?.GetComponent<TextMeshProUGUI>();
-            if (nameText != null)
-            {
-                nameText.text = DummyBezienswaardigheden.name;
-            }
-            else
-            {
-                Debug.LogError("Name Text component or object not found in prefab.");
-            }
-
-            // Check and set "Description"
-            var descriptionText = newDummyBezienswaardigheden.transform.Find("Description")?.GetComponent<TextMeshProUGUI>();
-            if (descriptionText != null)
-            {
-                descriptionText.text = DummyBezienswaardigheden.description;
-            }
-            else
-            {
-                Debug.LogError("Description Text component or object not found in prefab.");
-            }
-
-            // Check and set "LocationX"
-            var locationXText = newDummyBezienswaardigheden.transform.Find("LocationX")?.GetComponent<TextMeshProUGUI>();
-            if (locationXText != null)
-            {
-                locationXText.text = DummyBezienswaardigheden.locationX.ToString();
-            }
-            else
-            {
-                Debug.LogError("LocationX Text component or object not found in prefab.");
-            }
-
-            // Check and set "LocationY"
-            var locationYText = newDummyBezienswaardigheden.transform.Find("LocationY")?.GetComponent<TextMeshProUGUI>();
-            if (locationYText != null)
-            {
-                locationYText.text = DummyBezienswaardigheden.locationY.ToString();
-            }
-            else
-            {
-                Debug.LogError("LocationY Text component or object not found in prefab.");
-            }
-
-            */
-
-            // Here you would set the data for the newDestination based on the destination object.
-            // For example:
-            newDummyBezienswaardigheden.transform.Find("Name").GetComponent<TextMeshProUGUI>().text = DummyBezienswaardigheden.name;
-            newDummyBezienswaardigheden.transform.Find("Description").GetComponent<TextMeshProUGUI>().text = DummyBezienswaardigheden.description;
-            newDummyBezienswaardigheden.transform.Find("LocationX").GetComponent<TextMeshProUGUI>().text = DummyBezienswaardigheden.locationX.ToString();
-            newDummyBezienswaardigheden.transform.Find("LocationY").GetComponent<TextMeshProUGUI>().text = DummyBezienswaardigheden.locationY.ToString();
+            UpdateTextComponent(newItem, "name", item.name);
+            UpdateTextComponent(newItem, "artist", item.artist);
+            UpdateTextComponent(newItem, "creation_date", item.creation_date);
+            UpdateTextComponent(newItem, "description", item.description);
+            UpdateTextComponent(newItem, "info_link", item.info_link);
+            UpdateTextComponent(newItem, "latitude", item.latitude.ToString());
+            UpdateTextComponent(newItem, "longtitude", item.longtitude.ToString());
         }
     }
+
+    void UpdateTextComponent(GameObject parentObject, string childName, string textValue)
+    {
+        var textComponent = parentObject.transform.Find(childName)?.GetComponent<TextMeshProUGUI>();
+        if (textComponent != null)
+        {
+            textComponent.text = textValue;
+        }
+        else
+        {
+            Debug.LogError(childName + " Text component or object not found in prefab.");
+        }
+    }
+
+
+
 }

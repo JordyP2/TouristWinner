@@ -1418,6 +1418,7 @@ GameObject:
   - component: {fileID: 1730685440}
   - component: {fileID: 1730685439}
   - component: {fileID: 1730685443}
+  - component: {fileID: 1730685444}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1525,6 +1526,18 @@ MonoBehaviour:
   bezienswaardighedenPrefab: {fileID: 4839366918863875757, guid: 87c9193fe54154b4e9db791d57c7ca30,
     type: 3}
   contentPanel: {fileID: 15034749}
+--- !u!114 &1730685444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730685438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69aebd2d9c74ab94093361560cb545f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1770348255
 GameObject:
   m_ObjectHideFlags: 0
