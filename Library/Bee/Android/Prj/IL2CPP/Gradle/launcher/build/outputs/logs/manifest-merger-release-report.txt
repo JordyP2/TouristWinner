@@ -5,10 +5,11 @@ INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\
 INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 MERGED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-83:12
-MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:17:1-49:12
 MERGED from [:UnityARCore:] C:\Users\Jordy\.gradle\caches\transforms-3\ee4f549dec43b8174120462d1198b468\transformed\UnityARCore\AndroidManifest.xml:2:1-11:12
 MERGED from [:ARPresto:] C:\Users\Jordy\.gradle\caches\transforms-3\10a1d7322a5639f1806365cb666231c8\transformed\ARPresto\AndroidManifest.xml:2:1-11:12
+MERGED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:2:1-19:12
 MERGED from [:unityandroidpermissions:] C:\Users\Jordy\.gradle\caches\transforms-3\942592b881e85bb2d9a4b9fd85d0e97b\transformed\unityandroidpermissions\AndroidManifest.xml:6:1-15:12
+MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:17:1-49:12
 MERGED from [:unityLibrary:xrmanifest.androidlib] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-14:12
 INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -35,6 +36,8 @@ application
 ADDED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
 MERGED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:5-81:19
 MERGED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:5-81:19
+MERGED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:11:5-17:19
+MERGED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:11:5-17:19
 MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:33:5-47:19
 MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:33:5-47:19
 MERGED from [:unityLibrary:xrmanifest.androidlib] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-12:19
@@ -63,14 +66,16 @@ INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\
 INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
 MERGED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
 MERGED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:6:5-8:41
-MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:25:5-27:41
-MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:25:5-27:41
 MERGED from [:UnityARCore:] C:\Users\Jordy\.gradle\caches\transforms-3\ee4f549dec43b8174120462d1198b468\transformed\UnityARCore\AndroidManifest.xml:7:5-9:41
 MERGED from [:UnityARCore:] C:\Users\Jordy\.gradle\caches\transforms-3\ee4f549dec43b8174120462d1198b468\transformed\UnityARCore\AndroidManifest.xml:7:5-9:41
 MERGED from [:ARPresto:] C:\Users\Jordy\.gradle\caches\transforms-3\10a1d7322a5639f1806365cb666231c8\transformed\ARPresto\AndroidManifest.xml:7:5-9:41
 MERGED from [:ARPresto:] C:\Users\Jordy\.gradle\caches\transforms-3\10a1d7322a5639f1806365cb666231c8\transformed\ARPresto\AndroidManifest.xml:7:5-9:41
+MERGED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:7:5-9:41
+MERGED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:7:5-9:41
 MERGED from [:unityandroidpermissions:] C:\Users\Jordy\.gradle\caches\transforms-3\942592b881e85bb2d9a4b9fd85d0e97b\transformed\unityandroidpermissions\AndroidManifest.xml:11:5-13:41
 MERGED from [:unityandroidpermissions:] C:\Users\Jordy\.gradle\caches\transforms-3\942592b881e85bb2d9a4b9fd85d0e97b\transformed\unityandroidpermissions\AndroidManifest.xml:11:5-13:41
+MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:25:5-27:41
+MERGED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:25:5-27:41
 MERGED from [:unityLibrary:xrmanifest.androidlib] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:unityLibrary:xrmanifest.androidlib] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 INJECTED from C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
@@ -215,6 +220,16 @@ ADDED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library
 		ADDED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:13-37
 	android:name
 		ADDED from [:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-46
+activity#spacemadness.com.lunarconsole.settings.PluginSettingsActivity
+ADDED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:12:9-16:58
+	android:label
+		ADDED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:15:13-74
+	android:icon
+		ADDED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:14:13-72
+	android:theme
+		ADDED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:16:13-55
+	android:name
+		ADDED from [:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:13:13-89
 queries
 ADDED from [:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:29:5-31:15
 package#com.google.ar.core

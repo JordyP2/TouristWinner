@@ -172,28 +172,39 @@
 94-->[:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:9-80:40
 95            android:name="com.google.ar.core"
 95-->[:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-46
-96            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+96            android:value="required" />
 96-->[:unityLibrary] C:\Users\Jordy\Documents\Github\TouristWinner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:13-37
-97        <meta-data
-97-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:36:9-38:41
-98            android:name="com.google.ar.core.min_apk_version"
-98-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:37:13-62
-99            android:value="220920000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
-99-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:38:13-38
-100        <activity
-100-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:40:9-46:80
-101            android:name="com.google.ar.core.InstallActivity"
-101-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:41:13-62
-102            android:configChanges="keyboardHidden|orientation|screenSize"
-102-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:42:13-74
-103            android:excludeFromRecents="true"
-103-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:43:13-46
-104            android:exported="false"
-104-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:44:13-37
-105            android:launchMode="singleTop"
-105-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:45:13-43
-106            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-106-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:46:13-77
-107    </application>
-108
-109</manifest>
+97
+98        <activity
+98-->[:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:12:9-16:58
+99            android:name="spacemadness.com.lunarconsole.settings.PluginSettingsActivity"
+99-->[:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:13:13-89
+100            android:icon="@drawable/lunar_console_icon_button_settings"
+100-->[:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:14:13-72
+101            android:label="@string/lunar_console_settings_activity_label"
+101-->[:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:15:13-74
+102            android:theme="@style/lunar_console_theme" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+102-->[:lunar-console:] C:\Users\Jordy\.gradle\caches\transforms-3\7c65e05ed731a04bd62cd47d70026f50\transformed\lunar-console\AndroidManifest.xml:16:13-55
+103        <meta-data
+103-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:36:9-38:41
+104            android:name="com.google.ar.core.min_apk_version"
+104-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:37:13-62
+105            android:value="220920000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+105-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:38:13-38
+106        <activity
+106-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:40:9-46:80
+107            android:name="com.google.ar.core.InstallActivity"
+107-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:41:13-62
+108            android:configChanges="keyboardHidden|orientation|screenSize"
+108-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:42:13-74
+109            android:excludeFromRecents="true"
+109-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:43:13-46
+110            android:exported="false"
+110-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:44:13-37
+111            android:launchMode="singleTop"
+111-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:45:13-43
+112            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+112-->[:arcore_client:] C:\Users\Jordy\.gradle\caches\transforms-3\ece6358c3c3b544f3d6f3cc51ffa918c\transformed\arcore_client\AndroidManifest.xml:46:13-77
+113    </application>
+114
+115</manifest>

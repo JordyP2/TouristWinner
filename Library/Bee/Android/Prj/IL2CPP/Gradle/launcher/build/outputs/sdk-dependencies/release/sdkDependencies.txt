@@ -3,14 +3,6 @@
 
 library {
   maven_library {
-    artifactId: "arcore_client"
-  }
-  digests {
-    sha256: "k_\177\004\001\3367\323\252K\347~\350\372\270\254\354\b\231\035\363\205\231\006\355\352\376\364\215!\273\016"
-  }
-}
-library {
-  maven_library {
     artifactId: "UnityARCore"
   }
   digests {
@@ -27,10 +19,26 @@ library {
 }
 library {
   maven_library {
+    artifactId: "lunar-console"
+  }
+  digests {
+    sha256: "\257l\322\373R\274<\004<&\330\360^G\240\215\325/;\025\033\023\035\333\327~\325*m\'\273\235"
+  }
+}
+library {
+  maven_library {
     artifactId: "unityandroidpermissions"
   }
   digests {
     sha256: "\304\275\200/\267\017\253\2569\233,4\201\275\362\370\021i,\2045\246\3123t\313N\032\270\017h\272"
+  }
+}
+library {
+  maven_library {
+    artifactId: "arcore_client"
+  }
+  digests {
+    sha256: "k_\177\004\001\3367\323\252K\347~\350\372\270\254\354\b\231\035\363\205\231\006\355\352\376\364\215!\273\016"
   }
 }
 library {
@@ -45,6 +53,7 @@ module_dependencies {
   dependency_index: 2
   dependency_index: 3
   dependency_index: 4
+  dependency_index: 5
 }
 repositories {
   maven_repo {

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638366745775335671
-    m_Hash: 281672717
+      ticks: 638379822431220963
+    m_Hash: 3534816662
   m_LockFileStatus:
     m_FilePath: C:/Users/Jordy/Documents/Github/TouristWinner/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638366745775345648
-    m_Hash: 4194209916
+      ticks: 638379822465187041
+    m_Hash: 2213377493
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -489,92 +489,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 3.1.3
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.sentis@1.2.0-exp.2
-  testable: 0
-  isDirectDependency: 1
-  version: 1.2.0-exp.2
-  source: 1
-  resolvedPath: C:\Users\Jordy\Documents\Github\TouristWinner\Library\PackageCache\com.unity.sentis@1.2.0-exp.2
-  assetPath: Packages/com.unity.sentis
-  name: com.unity.sentis
-  displayName: Sentis
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: 'The Sentis package is a neural network inference library for Unity.
-    You can use Sentis to import trained neural network models into Unity, then run
-    them in real time locally on any platform Unity supports and in the Editor. You
-    can run models on the GPU or the CPU.
-
-
-    You can use Sentis to run models
-    that do style transfer, generate assets, automate non-player character (NPC)
-    logic, and much more
-
-
-    Visit https://discussions.unity.com/c/10 for updates
-    and resources on the Sentis beta, including a full sample project.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-exp.6
-    - 1.1.0-exp.2
-    - 1.1.1-exp.2
-    - 1.2.0-exp.2
-    compatible:
-    - 1.0.0-exp.6
-    - 1.1.0-exp.2
-    - 1.1.1-exp.2
-    - 1.2.0-exp.2
-    recommended: 
-    deprecated: []
-  dependencies:
-  - name: com.unity.burst
-    version: 1.8.4
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.8
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638308507480000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sentis@1.2/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/UnityInferenceEngine.git
-    revision: 03a4bb1ba45958aea199062458cacd5b9796e6f4
-    path: 
-  unityLifecycle:
-    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1168,6 +1082,7 @@ m_ResolvedPackages:
     - 5.1.1
     - 6.0.0-pre.3
     - 6.0.0-pre.4
+    - 6.0.0-pre.5
     compatible:
     - 5.0.7
     - 5.1.0-pre.1
@@ -3539,6 +3454,7 @@ m_ResolvedPackages:
     - 5.1.1
     - 6.0.0-pre.3
     - 6.0.0-pre.4
+    - 6.0.0-pre.5
     compatible:
     - 5.0.7
     - 5.1.0-pre.1
@@ -3687,12 +3603,16 @@ m_ResolvedPackages:
     - 2.2.2
     - 2.2.3
     - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
     compatible:
     - 2.2.3
     - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
@@ -3809,189 +3729,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.burst@1.8.8
-  testable: 0
-  isDirectDependency: 0
-  version: 1.8.8
-  source: 1
-  resolvedPath: C:\Users\Jordy\Documents\Github\TouristWinner\Library\PackageCache\com.unity.burst@1.8.8
-  assetPath: Packages/com.unity.burst
-  name: com.unity.burst
-  displayName: Burst
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Burst is a compiler that translates from IL/.NET bytecode to highly
-    optimized native code using LLVM.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.2.4-preview.5
-    - 0.2.4-preview.7
-    - 0.2.4-preview.11
-    - 0.2.4-preview.12
-    - 0.2.4-preview.13
-    - 0.2.4-preview.14
-    - 0.2.4-preview.15
-    - 0.2.4-preview.16
-    - 0.2.4-preview.17
-    - 0.2.4-preview.18
-    - 0.2.4-preview.19
-    - 0.2.4-preview.20
-    - 0.2.4-preview.21
-    - 0.2.4-preview.22
-    - 0.2.4-preview.23
-    - 0.2.4-preview.24
-    - 0.2.4-preview.25
-    - 0.2.4-preview.30
-    - 0.2.4-preview.31
-    - 0.2.4-preview.33
-    - 0.2.4-preview.34
-    - 0.2.4-preview.37
-    - 0.2.4-preview.41
-    - 0.2.4-preview.45
-    - 0.2.4-preview.48
-    - 0.2.4-preview.50
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.0-preview.4
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3-preview.3
-    - 1.2.0-preview.1
-    - 1.2.0-preview.5
-    - 1.2.0-preview.6
-    - 1.2.0-preview.8
-    - 1.2.0-preview.9
-    - 1.2.0-preview.10
-    - 1.2.0-preview.11
-    - 1.2.0-preview.12
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.3.0-preview.1
-    - 1.3.0-preview.2
-    - 1.3.0-preview.3
-    - 1.3.0-preview.4
-    - 1.3.0-preview.5
-    - 1.3.0-preview.6
-    - 1.3.0-preview.7
-    - 1.3.0-preview.8
-    - 1.3.0-preview.9
-    - 1.3.0-preview.10
-    - 1.3.0-preview.11
-    - 1.3.0-preview.12
-    - 1.3.0-preview.13
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0-pre.1
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
-    - 1.4.0-preview.3
-    - 1.4.0-preview.4
-    - 1.4.0-preview.5
-    - 1.4.1-pre.1
-    - 1.4.1-pre.2
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4-preview.1
-    - 1.4.4-preview.2
-    - 1.4.4
-    - 1.4.5
-    - 1.4.6
-    - 1.4.7
-    - 1.4.8
-    - 1.4.9
-    - 1.4.11
-    - 1.5.0-pre.3
-    - 1.5.0-pre.4
-    - 1.5.0-pre.5
-    - 1.5.0
-    - 1.5.1
-    - 1.5.2
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6-preview.1
-    - 1.5.6
-    - 1.6.0-pre.2
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.6.4
-    - 1.6.5
-    - 1.6.6
-    - 1.7.0-pre.1
-    - 1.7.0
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.4
-    - 1.8.0-pre.1
-    - 1.8.0-pre.2
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.7
-    - 1.8.8
-    - 1.8.9
-    compatible:
-    - 1.8.8
-    - 1.8.9
-    recommended: 1.8.9
-    deprecated: []
-  dependencies:
-  - name: com.unity.mathematics
-    version: 1.2.1
-  resolvedDependencies:
-  - name: com.unity.mathematics
-    version: 1.2.6
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638271934420000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 7673d9a736112fc9d58f32024c19150c2fa6d8ea
-    path: 
-  unityLifecycle:
-    version: 1.8.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4279,11 +4016,13 @@ m_ResolvedPackages:
     - 3.0.24
     - 3.0.25
     - 3.0.26
+    - 3.0.27
     compatible:
     - 3.0.24
     - 3.0.25
     - 3.0.26
-    recommended: 3.0.26
+    - 3.0.27
+    recommended: 3.0.27
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -4521,6 +4260,8 @@ m_ResolvedPackages:
     - 1.3.8
     - 1.3.9
     - 1.4.0
+    - 1.4.1
+    - 1.4.2
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -4537,6 +4278,8 @@ m_ResolvedPackages:
     - 1.3.8
     - 1.3.9
     - 1.4.0
+    - 1.4.1
+    - 1.4.2
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -4850,6 +4593,7 @@ m_ResolvedPackages:
     - 5.1.1
     - 6.0.0-pre.3
     - 6.0.0-pre.4
+    - 6.0.0-pre.5
     compatible:
     - 5.0.7
     - 5.1.0-pre.1

@@ -231,19 +231,25 @@
           },
           {
             "name": "Mesh",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Main Menu.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshFilter",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Main Menu.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Main Menu.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -700,6 +706,14 @@
       {
         "name": "Physics",
         "dependencies": [
+          {
+            "name": "BoxCollider",
+            "scenes": [
+              "Assets/Scenes/Main Menu.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
           {
             "name": "Collider",
             "scenes": [],

@@ -1,4 +1,4 @@
-#Tue Oct 17 11:48:44 CEST 2023
+#Tue Dec 19 11:20:58 CET 2023
 base.0=C\:\\Users\\Jordy\\Documents\\Github\\TouristWinner\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
