@@ -212,43 +212,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16852}
     - Class: 114
-      Script: {instanceID: 17690}
+      Script: {instanceID: 17688}
     - Class: 114
-      Script: {instanceID: 18322}
+      Script: {instanceID: 18318}
     - Class: 114
-      Script: {instanceID: 18608}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 19006}
+      Script: {instanceID: 19002}
     - Class: 114
-      Script: {instanceID: 19878}
+      Script: {instanceID: 19874}
     - Class: 114
-      Script: {instanceID: 20492}
+      Script: {instanceID: 20484}
     - Class: 114
-      Script: {instanceID: 20618}
+      Script: {instanceID: 20610}
     - Class: 114
-      Script: {instanceID: 20874}
+      Script: {instanceID: 20866}
     - Class: 114
-      Script: {instanceID: 21824}
+      Script: {instanceID: 21812}
     - Class: 114
-      Script: {instanceID: 21930}
+      Script: {instanceID: 21918}
     - Class: 114
-      Script: {instanceID: 22306}
+      Script: {instanceID: 22294}
     - Class: 114
-      Script: {instanceID: 22572}
+      Script: {instanceID: 22560}
     - Class: 114
-      Script: {instanceID: 22748}
+      Script: {instanceID: 22736}
     - Class: 114
-      Script: {instanceID: 22966}
+      Script: {instanceID: 22954}
     - Class: 114
-      Script: {instanceID: 23456}
+      Script: {instanceID: 23442}
     - Class: 114
-      Script: {instanceID: 24122}
+      Script: {instanceID: 24108}
     - Class: 114
-      Script: {instanceID: 24206}
+      Script: {instanceID: 24192}
     - Class: 114
-      Script: {instanceID: 24360}
+      Script: {instanceID: 24344}
     - Class: 114
-      Script: {instanceID: 24978}
+      Script: {instanceID: 24962}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -287,47 +287,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16966}
     - Class: 114
-      Script: {instanceID: 18322}
+      Script: {instanceID: 18318}
     - Class: 114
-      Script: {instanceID: 18608}
+      Script: {instanceID: 18604}
     - Class: 114
-      Script: {instanceID: 19006}
+      Script: {instanceID: 19002}
     - Class: 114
-      Script: {instanceID: 19260}
+      Script: {instanceID: 19256}
     - Class: 114
-      Script: {instanceID: 19886}
+      Script: {instanceID: 19882}
     - Class: 114
-      Script: {instanceID: 20720}
+      Script: {instanceID: 20712}
     - Class: 114
-      Script: {instanceID: 20936}
+      Script: {instanceID: 21168}
     - Class: 114
-      Script: {instanceID: 21180}
+      Script: {instanceID: 21812}
     - Class: 114
-      Script: {instanceID: 21824}
+      Script: {instanceID: 21918}
     - Class: 114
-      Script: {instanceID: 21930}
+      Script: {instanceID: 22296}
     - Class: 114
-      Script: {instanceID: 22308}
+      Script: {instanceID: 22560}
     - Class: 114
-      Script: {instanceID: 22572}
+      Script: {instanceID: 22736}
     - Class: 114
-      Script: {instanceID: 22748}
+      Script: {instanceID: 22780}
     - Class: 114
-      Script: {instanceID: 22792}
+      Script: {instanceID: 22954}
     - Class: 114
-      Script: {instanceID: 22966}
+      Script: {instanceID: 23442}
     - Class: 114
-      Script: {instanceID: 23296}
+      Script: {instanceID: 24158}
     - Class: 114
-      Script: {instanceID: 23456}
+      Script: {instanceID: 25008}
     - Class: 114
-      Script: {instanceID: 24172}
+      Script: {instanceID: 27018}
     - Class: 114
-      Script: {instanceID: 25024}
+      Script: {instanceID: 27046}
     - Class: 114
-      Script: {instanceID: 25028}
+      Script: {instanceID: 27094}
     - Class: 114
-      Script: {instanceID: 31196}
+      Script: {instanceID: 27130}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -453,12 +453,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 16c8cbd24a32f9d6625615e0e9098073
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CutoutUIMask
   - hash:
       serializedVersion: 2
       Hash: 769793596880b98bbb1fecd9060971ea
@@ -893,12 +887,6 @@ ScriptsOnlyBuild:
     className: XROrigin
   - hash:
       serializedVersion: 2
-      Hash: 09828fa6d296972ec3b86a1a6d033538
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ARFeatheredPlaneMeshVisualizer
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI.Editor
@@ -945,12 +933,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ColorGradient
-  - hash:
-      serializedVersion: 2
-      Hash: a69d8b2c1bd47a3e39fab552a279bdd1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ImageTracking
   - hash:
       serializedVersion: 2
       Hash: 13c320424e15e88a0527d7477a4188bb
@@ -1077,12 +1059,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCancelMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 3f3771b6c2f2665d4e26e1f37f2720ac
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TagManagerScript
   - hash:
       serializedVersion: 2
       Hash: 029eeba55595df15ff0a94e1fc6ef03a
@@ -1221,12 +1197,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Toggle
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CheckScreenClick
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1415,12 +1385,6 @@ ScriptsOnlyBuild:
     className: IntDatum
   - hash:
       serializedVersion: 2
-      Hash: 1fe148674309b945918172e0d21b39f7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ImageRecognition
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1577,12 +1541,6 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 84834295544ef778fdcc2cc423a6cdb1
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AnchorCreator
-  - hash:
-      serializedVersion: 2
       Hash: 7ffe1ec005ce27933b425711f17f7050
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
@@ -1731,12 +1689,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARSessionOrigin
-  - hash:
-      serializedVersion: 2
-      Hash: 5bdfd72b54bc9350dcc7d166b4f8211d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Panel
   - hash:
       serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
@@ -1925,10 +1877,28 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 3f3771b6c2f2665d4e26e1f37f2720ac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TagManagerScript
+  - hash:
+      serializedVersion: 2
+      Hash: a69d8b2c1bd47a3e39fab552a279bdd1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ImageTracking
+  - hash:
+      serializedVersion: 2
       Hash: fb52e8ca0703518cf1c12b32d433f0e2
     assemblyName: LunarConsole
     namespaceName: LunarConsolePlugin
     className: LunarConsole
+  - hash:
+      serializedVersion: 2
+      Hash: 84834295544ef778fdcc2cc423a6cdb1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnchorCreator
   - hash:
       serializedVersion: 2
       Hash: 9e5619f1ac76ee472e504f0fcbbfe767
@@ -1937,12 +1907,42 @@ ScriptsOnlyBuild:
     className: LunarConsoleLegacyActions
   - hash:
       serializedVersion: 2
+      Hash: 5bdfd72b54bc9350dcc7d166b4f8211d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Panel
+  - hash:
+      serializedVersion: 2
+      Hash: 16c8cbd24a32f9d6625615e0e9098073
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CutoutUIMask
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CheckScreenClick
+  - hash:
+      serializedVersion: 2
       Hash: b3a3d31cc9b5b2d6e6d6bd1ec1db9efa
     assemblyName: LunarConsole
     namespaceName: LunarConsolePluginInternal
     className: LunarConsoleAction
+  - hash:
+      serializedVersion: 2
+      Hash: 1fe148674309b945918172e0d21b39f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ImageRecognition
+  - hash:
+      serializedVersion: 2
+      Hash: 09828fa6d296972ec3b86a1a6d033538
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ARFeatheredPlaneMeshVisualizer
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Scanner.unity
-  playerPath: C:/Users/Jordy/Documents/Github/TouristWinner/test.apk
+  playerPath: C:/Users/vanjo/Documents/GitHub/TouristWinner/test.apk

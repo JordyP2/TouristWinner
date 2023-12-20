@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -713,93 +713,6 @@ MonoBehaviour:
   - Zuil
   - Voortvarend
   - Kempenaar Monument
---- !u!1 &348371569
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 348371571}
-  - component: {fileID: 348371570}
-  m_Layer: 0
-  m_Name: Lunar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &348371570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348371569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 086be258345234a029dca36e7ef25dc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_settings:
-    exceptionWarning:
-      displayMode: 3
-    logOverlay:
-      enabled: 0
-      maxVisibleLines: 3
-      timeout: 1
-      colors:
-        exception:
-          foreground:
-            serializedVersion: 2
-            rgba: 4282795754
-          background:
-            serializedVersion: 2
-            rgba: 4280163870
-        error:
-          foreground:
-            serializedVersion: 2
-            rgba: 4282795754
-          background:
-            serializedVersion: 2
-            rgba: 4280163870
-        warning:
-          foreground:
-            serializedVersion: 2
-            rgba: 4282436555
-          background:
-            serializedVersion: 2
-            rgba: 4280163870
-        debug:
-          foreground:
-            serializedVersion: 2
-            rgba: 4294958491
-          background:
-            serializedVersion: 2
-            rgba: 4280163870
-    capacity: 4096
-    trim: 512
-    gesture: 1
-    richTextTags: 0
-    sortActions: 1
-    sortVariables: 1
-    emails: []
---- !u!4 &348371571
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348371569}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 899.1669, y: 947.32025, z: 59.299416}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &570104878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1886,6 +1799,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8296845932156245673
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4884474480233270193, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_Name
+      value: Lunar
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 899.1669
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 947.32025
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.299416
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448015413488227666, guid: 17af00f0017b2bc44930286c956eedca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 17af00f0017b2bc44930286c956eedca, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1895,4 +1876,4 @@ SceneRoots:
   - {fileID: 342048349}
   - {fileID: 727868258}
   - {fileID: 2057973551}
-  - {fileID: 348371571}
+  - {fileID: 8296845932156245673}
