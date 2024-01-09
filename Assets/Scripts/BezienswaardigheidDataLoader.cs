@@ -17,7 +17,7 @@ public class Bezienswaardigheid
     public string artist { get; set; }
     public string creation_date { get; set; }
     public string description { get; set; }
-    public string info_link { get; set; } // This should be a string to store a URL.
+    public string info_link { get; set; } // This is a string to store a URL.
     public double? latitude { get; set; } // Nullable double to handle NULL values for latitude.
     public double? longtitude { get; set; } // Nullable double to handle NULL values for longitude.
 }

@@ -401,7 +401,6 @@
 "Assets/Scripts/BezienswaardigheidDataLoader.cs"
 "Assets/Scripts/ChangeScene.cs"
 "Assets/Scripts/DataService.cs"
-"Assets/Scripts/DummyBezienswaardigheden.cs"
 "Assets/Scripts/SQLite.cs"
 -langversion:9.0
 
